@@ -41,3 +41,40 @@ body {
 #navbar a:hover {
   transform: scale(1.1);
 }
+.center-column {
+  margin: 0px auto;
+  justify-content: center;
+  display: flex;
+}
+.about-card {
+  position: relative;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  cursor: pointer;
+}
+.about-card .about {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.about-card:hover .greeting {
+  display: none;
+}
+
+.about-card:hover .about {
+  display: block;
+  opacity: 1;
+}
+#homepage-text {
+  width: 600px;
+  margin: 48px auto;
+  font-size: 20px;
+  text-align: center;
+}
+#homepage-text h2 {
+  text-align: center;
+  line-height: 3.0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #744e69;
+}
