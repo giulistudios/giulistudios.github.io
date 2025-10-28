@@ -173,6 +173,7 @@ h2 {
     border: 2px solid #744e69;
     padding: 8px 16px;
     border-radius: 48px;
+    margin: 0 10px; 
     
 }
 .text-container a {
@@ -180,6 +181,11 @@ h2 {
     text-decoration: none;
     margin: 0 10px; 
     transition: all 0.3s ease;
+    padding: 8px 16px;  
+}
+.text-container {
+  text-align: center;
+  margin-top: 20px; 
 }
 .text-container a:hover {
   transform: scale(1.1);
