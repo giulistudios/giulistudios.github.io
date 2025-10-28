@@ -102,10 +102,6 @@ body {
   height: auto;
   display: block;
 }
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
 .overlay-text {
   position: absolute;
   top: 0;
@@ -170,4 +166,21 @@ h2 {
   line-height: 3.0;
   font-family: 'Times New Roman', Times, serif;
   color: #744e69;
+}
+.text-container h3 {
+    font-size: 18px;
+    display: inline-block;
+    border: 2px solid #744e69;
+    padding: 8px 16px;
+    border-radius: 48px;
+    
+}
+.text-container a {
+    color: #744e69;                
+    text-decoration: none;
+    margin: 0 10px; 
+    transition: all 0.3s ease;
+}
+.text-container a:hover {
+  transform: scale(1.1);
 }
